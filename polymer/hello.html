@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="polymer/polymer.min.js"></script>
-    <link rel="import" href="component.html">
-  </head>
-  <body>
-    parent<br />
-    <mycomponent></mycomponent>
-  </body>
+<head>
+  <script src="polymer/polymer.min.js"></script>
+  <link rel="import" href="component.html">
+  <link rel="import" href="myshadow.html">
+</head>
+<body>
+  html import example<br />
+  <pre>
+    &lt;mycomponent&gt;&lt;/mycomponent&gt;
+  </pre>
+  <mycomponent></mycomponent>
+  <hr />
+
+  shadow dom<br />
+  <myshadow>Test,test</myshadow>
+  <hr />
+</body>
 </html>
